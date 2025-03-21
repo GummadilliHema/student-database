@@ -1,0 +1,27 @@
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| 2211cs010201       |
+| ecommdb            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+6 rows in set (0.00 sec)
+
+mysql> use 2211cs010201;
+Database changed
+mysql> select* from student;
++--------+----------+--------+--------------------+----------+
+| rollno | name     | branch | email              | mob      |
++--------+----------+--------+--------------------+----------+
+|    101 | hema     | cse    | hema@gmail.com     | 97765432 |
+|    102 | priya    | aiml   | priya@gmail.com    | 97873432 |
+|    103 | keerthi  | cs     | keerthi@gmail.com  | 73273432 |
+|    104 | divya    | it     | divya@gmail.com    | 73278532 |
+|    105 | spoorthi | ds     | spoorthi@gmail.com | 73753532 |
++--------+----------+--------+--------------------+----------+
+5 rows in set (0.00 sec)
